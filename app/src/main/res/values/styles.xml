@@ -1,0 +1,34 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textColor">@color/red</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="buttonStyle">@style/MyButton</item>
+        <item name="radioButtonStyle">@style/MyRadio</item>
+    </style>
+
+    <style name="sampleStyle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/green</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="MyButton" parent="android:Widget.Button">
+        <item name="android:background">
+            @drawable/button_selector
+        </item>
+        <item name="android:textColor">
+            @drawable/text_selector
+        </item>
+    </style>
+
+    <style name="MyRadio" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:button">
+            @drawable/radio_selector
+        </item>
+    </style>
+
+</resources>

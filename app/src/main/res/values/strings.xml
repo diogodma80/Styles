@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Styles</string>
+    <string name="any_text">Random Text</string>
+    <string name="match_parent_text">Text using match_parent</string>
+    <string name="another_text_linebreak">Another text with\nwith two\nlines</string>
+    <string name="styled_TextView">TextView with style</string>
+</resources>
